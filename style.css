@@ -21,6 +21,7 @@ max-width: 100%;
 height: auto;
 width: 50px;
 height: 50px;
+position: absolute;
 }
 
 #nav-bar {      
@@ -28,6 +29,20 @@ height: 50px;
     margin: auto;
     position: relative; 
     /*right: 25px;*/ 
+}
+
+@media screen and (max-width: 500px) {
+    #nav-bar ul {    
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: 205px;
+    }
+    #header {
+        position: relative;
+        background-color: rgb(8, 102, 105);
+    }
 }
 
 ul {
