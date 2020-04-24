@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="logohealth.png">
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-link">
+                    <a class="nav-link" href="#header">HOME</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="#video">SAMPLES</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="#video">GALLERY</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="#footer">ABOUT</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="#form">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--image slider-->
+    <div class="slider">
+        <div class="slide" id="slide-1">
+        </div>
+        <div class="slide" id="slide-2">
+        </div>
+        <div class="slide" id="slide-3">
+        </div>
+        <div class="slide" id="slide-4">
+        </div>
+    </div>
+    <!--end of image slider-->
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/B8kEIOBoRGk" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter email here">
+        <input id="submit" type="submit">
+    </form>
+    <footer id="footer">
+        <p>Copyright © 2020 BrunoElo</p>
+    </footer>
+</body>
+
+</html>
