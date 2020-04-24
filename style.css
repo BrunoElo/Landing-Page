@@ -37,7 +37,6 @@ position: absolute;
         display: flex;
         flex-direction: column;
         text-align: center;
-        left: 205px;
     }
     #header {
         position: relative;
