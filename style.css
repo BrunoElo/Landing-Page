@@ -93,7 +93,7 @@ overflow: hidden;
     left: 0%;
     animation-delay: -1s;
     background-image: url("https://res.cloudinary.com/brunoelo/image/upload/v1554337239/samples/bike.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -101,7 +101,7 @@ overflow: hidden;
     left: 100%;
     animation-delay: 2s;
     background-image: url("https://res.cloudinary.com/brunoelo/image/upload/v1554337237/samples/food/fish-vegetables.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -109,7 +109,7 @@ overflow: hidden;
     left: 100%;
     animation-delay: 5s;
     background-image: url("https://res.cloudinary.com/brunoelo/image/upload/v1586036917/Google%20Landing%20Page/Firey_Horse.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -117,7 +117,7 @@ overflow: hidden;
     left: 100%;
     animation-delay: 8s;
     background-image: url("https://res.cloudinary.com/brunoelo/image/upload/v1554337239/samples/people/jazz.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
