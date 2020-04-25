@@ -22,7 +22,10 @@ height: auto;
 width: 50px;
 height: 50px;
 position: absolute;
+z-index: 1;
 }
+
+
 
 #nav-bar {      
     width: 50vw;
@@ -37,11 +40,39 @@ position: absolute;
         display: flex;
         flex-direction: column;
         text-align: center;
+        left: -100%;
+        transition: all 1s ease;
+        
     }
-    #header {
-        position: relative;
-        background-color: rgb(8, 102, 105);
+    #header {        
+        position: fixed;
+        width: 100%;
     }
+    .checkbtn {
+        width: 30px;
+        height: 30px;
+        fill: white;
+        position: relative;        
+        cursor: pointer;
+        margin-top: 7px;
+        margin-right: 7px;
+    }
+    #check:checked ~ #nav-bar ul {
+        left:0;        
+        display: none;    
+        transition: all .5s ease;
+    }
+    #nav-bar {
+        background-color: teal;
+        width: 100%;
+        left: 45px;
+        margin: auto -45px;
+    }
+}
+
+
+#check {
+    display: none;
 }
 
 ul {
